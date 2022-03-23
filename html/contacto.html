@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi web</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/cabecera.css">
+    <link rel="stylesheet" href="../css/menuhamburguesa.css">
+    <link rel="stylesheet" href="../css/formulario-contacto.css">
+    <link rel="shortcut icon" href="../imagenes/Manuel Arechavaleta rec.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/88575cb51e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="../index.html">inicio</a>
+                <a href="proyectos.html">proyectos</a>
+                <a href="galeria.html">fotografía de naturaleza</a>
+                <a href="enlacesinteres.html">enlaces de interés</a>
+                <a href="https://losnikon.wordpress.com/author/mareher/" target="_blank">blog</a>
+                <a href="sobremi.html">sobre mi</a>
+                <a href="contacto.html">contacto</a>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="contenedor">
+
+            <h1 class="titulo-contacto">Formulario de contacto</h1>
+    
+            <div class="contenido">
+    
+    
+                <div class="info">
+    
+                    <div class="col">
+                        <i class="icono fas fa-map-marker-alt"></i>
+                        <p>c/ El Hoyo Nro. 19, Santiago del Teide, Tenerife</p>
+                    </div>
+                    <div class="col">
+                        <i class="icono fas fa-envelope"></i>
+                        <p>manolitogafotas@telefonica.net</p>
+                    </div>
+                    <div class="col">
+                        <i class="icono fas fa-phone"></i>
+                        <p>649 60 32 18 <br>922 45 88 39</p>
+                    </div>
+    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3513.0801499703034!2d-16.816701585448243!3d28.295896105988806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6a896176b25ac7%3A0x6f299aeff7db9dcb!2sC.%20el%20Hoyo%2C%2038690%20Santiago%20del%20Teide%2C%20Santa%20Cruz%20de%20Tenerife!5e0!3m2!1ses!2ses!4v1647888743697!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       
+                </div>
+    
+                <form action="contact.php" method="GET" class="formulario">
+    
+                    <input class="input-form" type="text" name="nombre" placeholder="Nombre" id="nombre" required>
+                    <input class="input-form" type="email" name="correo" placeholder="Correo electrónico" id="correo"
+                        required>
+                    <input class="input-form" type="text" name="asunto" placeholder="Asunto" id="asunto" required>
+                    <textarea name="mensaje" id="mansaje" placeholder="Mensaje" required></textarea>
+                    <input type="submit" name="Enviar" value="Enviar">
+    
+                </form>
+    
+    
+            </div>
+    
+    
+        </div>
+    </section>
+    <footer>
+        <div class="footer"></div>
+    </footer>
+</body>
+
+</html>
