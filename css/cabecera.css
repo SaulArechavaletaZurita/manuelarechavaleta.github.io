@@ -1,0 +1,52 @@
+/* Saul Arechavaleta Zurita */
+
+/* Posicionamiento y tamaño del header */
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+    background-color: rgb(190, 190, 190);
+}
+
+/* Posicionamiento contenido navigation */
+header .navigation{
+    position: relative;
+    
+}
+
+/* Estilos letra menu */
+header .navigation .navigation-items a{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+
+}
+
+/* Principio animacion textos menu */
+header a:before{
+    content: '';
+    position: absolute;
+    background: rgb(0, 0, 0);
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+/* Final animacion textos menu */
+header .navigation .navigation-items a:hover:before{
+    width: 100%;
+    margin-bottom: -1px;
+}

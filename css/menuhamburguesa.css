@@ -1,0 +1,62 @@
+/* Saul Arechavaleta Zurita */
+
+/* Menu hamburguesa y reponsive design */
+@media (max-width: 1300px){
+    header {
+        padding: 12px 20px;        
+    }
+
+    section {
+        padding: 100px 20px;
+    }
+
+    .home .media-icons {
+        right: 15px;        
+    }
+    .home .content{
+        margin-left: 10%;
+    }
+    .navigation{
+        display: none;
+    }
+    .proyecto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .flecha{
+        height: 50vh;
+    }
+    .asociaciones{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:1000px){
+    .content{
+        font-size: 0.5em;
+    }
+    .texto-proyecto{
+        position: absolute;
+        width: 100%;
+        margin-top: 50%;
+    }
+
+}
+@media (max-width: 800px){
+    .column{
+        flex: 50%;
+    
+    }   
+
+}
+
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+    
+    }   
+
+}
+

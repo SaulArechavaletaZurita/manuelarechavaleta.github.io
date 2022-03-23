@@ -1,0 +1,62 @@
+/* Saul Arechavaleta Zurita */
+
+/* Estilos generales para slider galeria */
+.slider-galeria{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: transform .5s ease-in-out;
+}
+
+/* Estilos imagenes slider */
+.slider-galeria img{
+    width: 75vw;
+    max-height: 70vh;
+    object-fit:contain;
+    background:rgba(0, 0, 0, .5);
+}
+
+/* Aparicion del slider */
+.slider-galeria:target{
+    transform: scale(1);
+}
+
+/* Estilos boton cerrar */
+.cerrar{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: #6e6969;
+    color: #fff;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;    
+}
+
+/* Estilos boton flechas */
+.flecha{
+    display: block;
+    background: #6e6969;
+    color: white;
+    height: 75vh;
+    width: 30px;
+    text-decoration: none;
+    line-height: 625px;
+    text-align: center;
+    font-size: 2em;
+    border: 1px solid white;
+}
+

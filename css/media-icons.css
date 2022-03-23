@@ -1,0 +1,29 @@
+/* Saul Arechavaleta Zurita */
+
+/* Posicionamiento de los iconos */
+.home .media-icons{
+    z-index:888;
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+
+}
+
+/* Color y tamaño de los iconos */
+.home .media-icons a{
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    transition: 0.3s ease;
+}
+
+/* Separacion entre iconos */
+.home .media-icons a:not(:last-child){
+    margin-bottom: 20px;
+}
+
+/* Hover para cambiar el tamaño de los iconos */
+.home .media-icons a:hover{
+    transform: scale(1.3);
+}

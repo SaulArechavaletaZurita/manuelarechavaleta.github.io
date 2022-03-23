@@ -1,0 +1,43 @@
+/* Saul Arechavaleta Zurita */
+
+/* Estilos contenedor sobre mi */
+.content-sobremi{
+    width: 100%;
+    height: 100%;
+}
+
+/* Tamaño caja imagen sobre mi*/
+.foto-sobremi{
+    width: 40%;
+}
+
+/* Estilos y filtros imagen sobre mi */
+.foto-sobremi img{
+    width: 100%;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.5);
+    float: left;
+    
+    
+}
+
+/* Transformacion imagen sobre mi */
+.foto-sobremi img:hover{
+    transform: scale(1.2) rotate(360deg);
+    border-radius: 50%; 
+    transition: all 2s;
+    filter:grayscale(100%);
+}
+
+/* Estilos textos sobre mi */
+.texto-sobremi h1.texto{
+    width: 40%;
+    position: absolute;
+    color: black;
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: 1.5em;
+    text-align: justify;
+    word-spacing: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
